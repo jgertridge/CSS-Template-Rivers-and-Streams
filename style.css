@@ -1,0 +1,164 @@
+body{
+	background-color:#333333;
+	margin:0;
+}
+
+p, h1, h2, h3{
+margin:0;
+}
+
+html{
+	overflow:-moz-scrollbars-vertical; 
+	overflow-y:scroll;
+}
+
+#base{
+	min-width:800px;
+}
+
+#leftSidebarWrapper{
+	width:20%;
+	min-width:150px;
+	position:fixed;
+}
+
+#rightSidebarWrapper{
+	width:20%;
+	min-width:150px;
+	position:fixed;
+		right:0%;
+}
+
+/* Media queries: */
+@media(max-width:850px){
+	#rightSidebarWrapper {
+		left:0%;
+		top:320px;
+	}
+}
+
+#leftSidebar{
+	min-width:150px;
+	float:right;
+	padding-top:23.5px;
+}
+
+#rightSidebar{
+	width:150px;
+	padding-top:23.5px;
+}
+
+#siteBanner{
+	height:60px;
+	/*background-color:#0B2161;*/
+	background-color:#007AA3;
+}
+
+#pageBanner{
+	background-color:#0B2161;
+}
+
+#pageBanner img{
+	width:100%;
+	margin-bottom:-1%;
+}
+
+#content{
+	min-height:500px;
+	background-color:#EEEEEE;
+	font-size:18px;
+	padding:6px;
+	box-sizing:border-box;
+	webkit-box-sizing:border-box;
+	moz-box-sizing:border-box;
+}
+
+#footer{
+	height:20px;
+	background-color:#666666;
+	border-radius:0px 0px 10px 10px;
+	text-align:center;
+	color:#EEEEEE;
+	font-size:12px;
+	padding-top:3px;
+}
+
+#footerText{
+
+}
+
+.siteTitle{
+	font-size:44px;
+	color:#EEEEEE;
+	text-align:center;
+	padding-top:6px;
+}
+
+.centralPartition{
+	width:60%;
+	min-width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sidebarTitle{
+	color:#666666;
+	text-align:center;
+	font-size:30px;
+}
+
+.hr{
+	height:1px;
+	background-color:#666666;
+}
+
+.leftSidebarButton{
+	text-align:right;
+	border-bottom:1px solid #666666;
+}
+
+.rightSidebarButton{
+	border-bottom:1px solid #666666;
+}
+
+.button{
+	color:#EEEEEE;
+	font-size:20px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:6px;
+	text-decoration:none;
+	width:130px;
+	height:30.5px;
+	display:inline-block;
+}
+
+a.button:hover{
+	/*background-color:#333350;*/
+	background-color:#334650;
+	font-size:25px;
+	padding-top:2px;
+	height:34.5px;
+}
+
+.buttonCurrent{
+	color:#EEEEEE;
+	font-size:25px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	text-decoration:none;
+	width:130px;
+	height:34.5px;
+	display:inline-block;
+	background-color:#334650;
+	/*background-color:#333350;*/
+	
+}
+
+.socialMediaIcon{
+	width:35px;
+	height:35px;
+	margin-top:10px;
+	margin-left:10px;
+}
